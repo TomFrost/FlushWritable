@@ -63,6 +63,10 @@ MyWriteStream.prototype._write = function(data, encoding, cb) {
 };
 ```
 
+## See Also
+
+ * [Issue #7348 in Node discussing adding this feature to the core](https://github.com/joyent/node/issues/7348)
+
 ## License
 FlushWritable is distributed under the MIT license.
 
