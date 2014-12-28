@@ -13,7 +13,7 @@ flushing those buffers to the target data store before the `finish` event is
 emitted.
 
 **FlushWritable is a drop-in replacement for stream.Writable** that implements
-a `_flush` call that behaves exactly how Transform._flush does.  It's called
+a `_flush` call that behaves exactly how `Transform._flush` does.  It's called
 with a callback, waits for the callback to be called, and _then_ fires
 `finish` (or `error` if an error was passed).  No additional execution after
 the `finish` event, no implementing nonstandard event types, no chaining a
